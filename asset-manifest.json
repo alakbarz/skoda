@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/skoda.alak.bar/static/css/main.afd327d2.css",
-    "main.js": "/skoda.alak.bar/static/js/main.1f19321d.js",
-    "static/js/592.7aed7381.chunk.js": "/skoda.alak.bar/static/js/592.7aed7381.chunk.js",
-    "index.html": "/skoda.alak.bar/index.html",
-    "main.afd327d2.css.map": "/skoda.alak.bar/static/css/main.afd327d2.css.map",
-    "main.1f19321d.js.map": "/skoda.alak.bar/static/js/main.1f19321d.js.map",
-    "592.7aed7381.chunk.js.map": "/skoda.alak.bar/static/js/592.7aed7381.chunk.js.map"
+    "main.css": "/skoda/static/css/main.afd327d2.css",
+    "main.js": "/skoda/static/js/main.2623c2c3.js",
+    "static/js/592.7aed7381.chunk.js": "/skoda/static/js/592.7aed7381.chunk.js",
+    "index.html": "/skoda/index.html",
+    "main.afd327d2.css.map": "/skoda/static/css/main.afd327d2.css.map",
+    "main.2623c2c3.js.map": "/skoda/static/js/main.2623c2c3.js.map",
+    "592.7aed7381.chunk.js.map": "/skoda/static/js/592.7aed7381.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.afd327d2.css",
-    "static/js/main.1f19321d.js"
+    "static/js/main.2623c2c3.js"
   ]
 }
