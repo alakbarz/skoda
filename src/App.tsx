@@ -37,13 +37,15 @@ const rightThree = getItems(8, 1);
 
 function App() {
   const [number, setNumber] = useState(0);
-  const [description, setDescription] = useState("");
-  const [fuse, setFuse] = useState<any>();
+  const [description, setDescription] = useState(
+    "Select fuse to see description"
+  );
+  const [fuse, setFuse] = useState(0);
 
   const showFuse = (item: Fuse) => {
     item?.number && setNumber(item.number);
     item?.description && setDescription(item.description);
-    item?.fuse ? setFuse(String(item?.fuse)) : setFuse(null);
+    item?.fuse ? setFuse(item.fuse) : setFuse(0);
   };
 
   const renderFuse = (item: Fuse) => {
@@ -99,10 +101,16 @@ function App() {
           </div>
         </div>
       </div>
+      <hr />
+      <br />
       <div>
-        <h1>Fuse number: {number}</h1>
-        <h2>{fuse ? `${fuse} amps.` : "Unused slot."}</h2>
-        <h3>{description}.</h3>
+        <span>
+          <strong>№ {number}</strong> •{" "}
+        </span>
+        <span>
+          {fuse ? <span className="amps">{fuse}A</span> : "Unused slot."}
+        </span>
+        <h2>{description}.</h2>
       </div>
     </div>
   );

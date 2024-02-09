@@ -1,3 +1,15 @@
+span {
+  font-size: 3rem;
+}
+
+.amps {
+  background-color: green;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  font-family: monospace;
+}
+
 .number {
   font-weight: bold;
   margin: 0.5rem 0 0 0;
