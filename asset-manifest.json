@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/skoda.alak.bar/static/css/main.afd327d2.css",
+    "main.js": "/skoda.alak.bar/static/js/main.1f19321d.js",
+    "static/js/592.7aed7381.chunk.js": "/skoda.alak.bar/static/js/592.7aed7381.chunk.js",
+    "index.html": "/skoda.alak.bar/index.html",
+    "main.afd327d2.css.map": "/skoda.alak.bar/static/css/main.afd327d2.css.map",
+    "main.1f19321d.js.map": "/skoda.alak.bar/static/js/main.1f19321d.js.map",
+    "592.7aed7381.chunk.js.map": "/skoda.alak.bar/static/js/592.7aed7381.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afd327d2.css",
+    "static/js/main.1f19321d.js"
+  ]
+}
